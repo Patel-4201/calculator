@@ -49,3 +49,12 @@ button:hover{
 button:active{
     background-color: blueviolet;
 }
+.operator-btn{
+    background-color: red;
+}
+.operator-btn:hover{
+    background-color: red;
+}
+.operator-btn:active{
+    background-color: red;
+}
