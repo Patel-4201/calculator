@@ -27,9 +27,6 @@ buttonEle.forEach((item) => {
 });
 
 // A safe function to evaluate mathematical expressions
-function evaluateExpression(expr) {
-  return Function('"use strict"; return (' + expr + ")")(); // Safer than eval
-}
 
 // Toggle theme button
 const themeToggleBtn = document.querySelector(".theme-toggler");
